@@ -1,11 +1,10 @@
-
 Animation 
 =========
 
-- Physical animation of a fabric using springs
+- Physical animation of a fabric with wind using springs.
 
-- Physical animation of water using particles
+- Physical animation of water using particles.
 
 Both programs use SDL and opengl.
 
-Sreenshots in the wiki.
+Click on the wiki to see the sreenshots.
