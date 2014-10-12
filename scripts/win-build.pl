@@ -74,11 +74,9 @@ foreach (&Env::buildOrder())
 
 
     {
-        print "test\n";
         local @ARGV = ($CFG, $ARCH);
         delete $INC{"win-build_branch.pl"};
         require "win-build_branch.pl";
-        print "test\n";
     }
 
     chdir $Env::SWScripts;

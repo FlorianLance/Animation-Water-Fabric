@@ -38,9 +38,10 @@ else
 
 ####################################################################################### SET PROJECTS TO BUILD
 our $Fabric   = "fabric";
+our $Water   = "water";
 
 # add projects to build here
-my @PbuildOrder            = ($Fabric);
+my @PbuildOrder            = ($Fabric, $Water);
 
 sub buildOrder {
     return @PbuildOrder;
@@ -50,6 +51,9 @@ sub buildOrder {
 my @ExecScriptParams = (# fabric
                         "fabric",           "x86",  "Fabric.exe",
                         "fabric-x64",       "amd64","Fabric-x64.exe",
+                        # water
+                        "water",           "x86",  "Water.exe",
+                        "water-x64",       "amd64","Water-x64.exe",
 
 );
 
