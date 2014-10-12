@@ -1,0 +1,18 @@
+
+################ projects
+
+project-qt/
+
+################ scripts
+
+
+################ thirdParty
+
+
+################ generated files
+
+dist/
+
+# fabric
+fabric/data/
+fabric/lib/
