@@ -9,7 +9,7 @@ A litte animation school work written in old opengl, not using the gpu for physi
 
 - Physical animation of water using particles.
 
-![Screenshot](https://camo.githubusercontent.com/38e1f312fce8d0a8590e509ba46c79a85413cb37/687474703a2f2f75707069782e6e65742f382f382f372f61353839346636626364633765643033363564336565643165326437302e6a7067 "Water") 
+![Screenshot](http://imgur.com/KWj2u7P "Water") 
 
 
 Both programs use SDL and opengl.
